@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col">
-    <H1>Quarterbacks</H1>
+    <H1>Top 10 Quarterbacks, First 10 Weeks</H1>
   </div>
   <div class="col-auto">
 <?php
