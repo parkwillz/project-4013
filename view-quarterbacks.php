@@ -14,7 +14,9 @@ include "view-quarterbacks-newform.php";
       <tr>
       <th>ID</th>
       <th>Name</th>
-      <th>Air Yards/Attempt</th>
+      <th>Pass Yards</th>
+      <th>Touchdowns</th>
+      <th>Interceptions</th>
         <th></th>
         <th></th>
         <th></th>
