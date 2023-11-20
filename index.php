@@ -12,7 +12,7 @@ include "view-header.php";
         <img src="/Contents/hurts.jpeg" class="img-fluid" alt="Jalen Hurts">
     </div>
     <div class="col-md-2 d-flex flex-column justify-content-center">
-        <img src="~/Contents/NFL-logo.png" class="img-fluid" />
+        <img src="/Contents/NFL-logo.png" class="img-fluid" />
     </div>
     <div class="col-md-4 d-flex flex-column justify-content-center">
         <img src="/Contents/waddle.jpeg" class="img-fluid" alt="Jaylen Waddle">
