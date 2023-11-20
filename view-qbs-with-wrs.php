@@ -52,7 +52,7 @@ include "view-qbs-with-wrs-editform.php";
 ?>
       </ul>
       </p>
-      <p class="card-text"><small class="text-body-secondary">QB Air Yards: <?php echo $quarterback['quarterback_adot']; ?></small></p>
+      <p class="card-text"><small class="text-body-secondary">QB Pass Yards: <?php echo $quarterback['quarterback_yards']; ?></small></p>
     </div>
   </div>
 <?php
