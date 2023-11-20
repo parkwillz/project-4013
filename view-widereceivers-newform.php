@@ -21,15 +21,15 @@
             <input type="text" class="form-control" id="wName" name="wName">
           </div>
           <div class="mb-3">
-            <label for="wRec" class="form-label">Widereceiver Receptions</label>
+            <label for="wRec" class="form-label">Receptions</label>
             <input type="text" class="form-control" id="wRec" name="wRec">
           </div>
           <div class="mb-3">
-            <label for="wYards" class="form-label">Widereceiver Yards</label>
+            <label for="wYards" class="form-label">Receiving Yards</label>
             <input type="text" class="form-control" id="wYards" name="wYards">
           </div>
           <div class="mb-3">
-            <label for="wTDs" class="form-label">Widereceiver Touchdowns</label>
+            <label for="wTDs" class="form-label">Touchdowns</label>
             <input type="text" class="form-control" id="wTDs" name="wTDs">
           </div>
             <input type="hidden" name="actionType" value="Add">
