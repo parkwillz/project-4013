@@ -18,7 +18,7 @@ include "view-header.php";
         <img src="/Contents/waddle.jpeg" class="img-fluid" alt="Jaylen Waddle">
     </div>
 </div>
-<div class="text-center">
+<div class="text-center" style="margin-top:70px">
     <p>Click on a skill position to view their stats</p>
 </div>
 
