@@ -21,15 +21,15 @@
             <input type="text" class="form-control" id="wName<?php echo $widereceiver['widereceiver_id']; ?>" name="wName" value="<?php echo $widereceiver['widereceiver_name']; ?>">
           </div>
           <div class="mb-3">
-            <label for="wRec<?php echo $widereceiver['widereceiver_id']; ?>" class="form-label">Widereceiver Receptions</label>
+            <label for="wRec<?php echo $widereceiver['widereceiver_id']; ?>" class="form-label">Receptions</label>
             <input type="text" class="form-control" id="wRec<?php echo $widereceiver['widereceiver_id']; ?>" name="wRec" value="<?php echo $widereceiver['widereceiver_rec']; ?>">
           </div>
           <div class="mb-3">
-            <label for="wYards<?php echo $widereceiver['widereceiver_id']; ?>" class="form-label">Widereceiver Rec Yards</label>
+            <label for="wYards<?php echo $widereceiver['widereceiver_id']; ?>" class="form-label">Receiving Yards</label>
             <input type="text" class="form-control" id="wYards<?php echo $widereceiver['widereceiver_id']; ?>" name="wYards" value="<?php echo $widereceiver['widereceiver_yards']; ?>">
           </div>
           <div class="mb-3">
-            <label for="wTDs<?php echo $widereceiver['widereceiver_id']; ?>" class="form-label">Widereceiver Touchdowns</label>
+            <label for="wTDs<?php echo $widereceiver['widereceiver_id']; ?>" class="form-label">Touchdowns</label>
             <input type="text" class="form-control" id="wTDs<?php echo $widereceiver['widereceiver_id']; ?>" name="wTDs" value="<?php echo $widereceiver['widereceiver_tds']; ?>">
           </div>
              <input type="hidden" name="wrid" value="<?php echo $widereceiver['widereceiver_id']; ?>">
