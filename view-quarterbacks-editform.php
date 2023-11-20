@@ -21,15 +21,15 @@
             <input type="text" class="form-control" id="qName<?php echo $quarterback['quarterback_id']; ?>" name="qName" value="<?php echo $quarterback['quarterback_name']; ?>">
           </div>
           <div class="mb-3">
-            <label for="qADOT<?php echo $quarterback['quarterback_id']; ?>" class="form-label">Quarterback Yards</label>
+            <label for="qADOT<?php echo $quarterback['quarterback_id']; ?>" class="form-label">Passing Yards</label>
             <input type="text" class="form-control" id="qYards<?php echo $quarterback['quarterback_id']; ?>" name="qYards" value="<?php echo $quarterback['quarterback_yards']; ?>">
           </div>
           <div class="mb-3">
-            <label for="qADOT<?php echo $quarterback['quarterback_id']; ?>" class="form-label">Quarterback Touchdowns</label>
+            <label for="qADOT<?php echo $quarterback['quarterback_id']; ?>" class="form-label">Passing Touchdowns</label>
             <input type="text" class="form-control" id="qTDs<?php echo $quarterback['quarterback_id']; ?>" name="qTDs" value="<?php echo $quarterback['quarterback_tds']; ?>">
           </div>
           <div class="mb-3">
-            <label for="qADOT<?php echo $quarterback['quarterback_id']; ?>" class="form-label">Quarterback Interceptions</label>
+            <label for="qADOT<?php echo $quarterback['quarterback_id']; ?>" class="form-label">Interceptions</label>
             <input type="text" class="form-control" id="qInts<?php echo $quarterback['quarterback_id']; ?>" name="qInts" value="<?php echo $quarterback['quarterback_ints']; ?>">
           </div>
              <input type="hidden" name="qbid" value="<?php echo $quarterback['quarterback_id']; ?>">
