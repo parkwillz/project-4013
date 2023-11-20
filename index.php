@@ -9,13 +9,13 @@ include "view-header.php";
 
 <div class="row mt-5 d-flex justify-content-center">
     <div class="col-md-4 d-flex align-items-center">
-        <img src="/Content/hurts.jpeg" class="img-fluid" alt="Jalen Hurts">
+        <img src="/Contents/hurts.jpeg" class="img-fluid" alt="Jalen Hurts">
     </div>
     <div class="col-md-2 d-flex flex-column justify-content-center">
-        <img src="~/Content/NFL-logo.png" class="img-fluid" />
+        <img src="~/Contents/NFL-logo.png" class="img-fluid" />
     </div>
     <div class="col-md-4 d-flex flex-column justify-content-center">
-        <img src="/Content/waddle.jpeg" class="img-fluid" alt="Jaylen Waddle">
+        <img src="/Contents/waddle.jpeg" class="img-fluid" alt="Jaylen Waddle">
     </div>
 </div>
 
