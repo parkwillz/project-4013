@@ -24,12 +24,15 @@ include "view-header.php";
 </div>
 
 <script>
-    anime({
-      targets: 'Jalen Hurts',
-      translateX: 270,
-      loop: 3,
-      easing: 'easeInOutSine'
-    });
+   var colorChange = anime.timeline({
+      endDelay: 1000,
+      easing: 'easeInOutQuad',
+      direction: 'alternate',
+      loop: true
+    })
+    .add({ targets: 'text-center',  background: 'rgb(220,20,60)' }, 0)
+
+    .add({ targets: 'text-center', translateX: 270 }, 0);
 </script>
 
 <?php
