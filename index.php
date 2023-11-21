@@ -2,6 +2,7 @@
 $pageTitle = "Home";
 include "view-header.php";
 ?>
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
 <div class="text-center">
     <h1 class="display-4">Welcome to our NFL Database</h1>
     <p>On this site you can view offensive skill position statistics for QBs, WRs and RBs</p>
@@ -21,6 +22,13 @@ include "view-header.php";
 <div class="text-center" style="margin-top:70px">
     <p>Click on a skill position to view their stats</p>
 </div>
+
+anime({
+  targets: 'img',
+  translateX: 270,
+  loop: 3,
+  easing: 'easeInOutSine'
+});
 
 <?php
 include "view-footer.php";
