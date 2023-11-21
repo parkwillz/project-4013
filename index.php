@@ -25,7 +25,7 @@ include "view-header.php";
 
 <script>
   anime({
-  targets: '.col-md-2 d-flex flex-column justify-content-center',
+  targets: '.img-fluid',
   translateX: 250,
   rotate: '1turn',
   backgroundColor: '#FFF',
