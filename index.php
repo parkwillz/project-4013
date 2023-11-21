@@ -26,8 +26,8 @@ include "view-header.php";
 <script>
   anime({
   targets: '.img-fluid',
-  translateX: 50,
-  rotate: '6turn',
+  translateX: 0,
+  rotate: '4turn',
   backgroundColor: '#FFF',
   duration: 1000
 });
