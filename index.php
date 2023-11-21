@@ -32,7 +32,6 @@ include "view-header.php";
     })
     .add({ targets: 'text-center',  background: 'rgb(220,20,60)' }, 0)
 
-    .add({ targets: 'text-center', translateX: 270 }, 0);
 </script>
 
 <?php
