@@ -23,12 +23,14 @@ include "view-header.php";
     <p>Click on a skill position to view their stats</p>
 </div>
 
-anime({
-  targets: 'img',
-  translateX: 270,
-  loop: 3,
-  easing: 'easeInOutSine'
-});
+<script>
+    anime({
+      targets: 'img',
+      translateX: 270,
+      loop: 3,
+      easing: 'easeInOutSine'
+    });
+</script>
 
 <?php
 include "view-footer.php";
