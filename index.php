@@ -25,7 +25,7 @@ include "view-header.php";
 
 <script>
     anime({
-      targets: 'img',
+      targets: 'Jalen Hurts',
       translateX: 270,
       loop: 3,
       easing: 'easeInOutSine'
