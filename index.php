@@ -25,17 +25,11 @@ include "view-header.php";
 
 <script>
   anime({
-  targets: 'img',
-  keyframes: [
-    {translateY: -40},
-    {translateX: 250},
-    {translateY: 40},
-    {translateX: 0},
-    {translateY: 0}
-  ],
-  duration: 10,
-  easing: 'easeOutElastic(1, .8)',
-  loop: true
+  targets: '.col-md-2 d-flex flex-column justify-content-center',
+  translateX: 250,
+  rotate: '1turn',
+  backgroundColor: '#FFF',
+  duration: 800
 });
 </script>
 
