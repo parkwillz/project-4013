@@ -4,8 +4,8 @@ include "view-header.php";
 ?>
 <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
 <div class="text-center">
-    <h1 class="display-4">Welcome to our NFL Database</h1>
-    <p>On this site you can view offensive skill position statistics for QBs, WRs and RBs</p>
+    <h1 class="display-4">NFL Database</h1>
+    <p>Welcome! On this site you can view offensive skill position statistics for QBs, WRs and RBs</p>
 </div>
 
 <div class="row mt-5 d-flex justify-content-center">
@@ -24,14 +24,7 @@ include "view-header.php";
 </div>
 
 <script>
-   var colorChange = anime.timeline({
-      endDelay: 1000,
-      easing: 'easeInOutQuad',
-      direction: 'alternate',
-      loop: true
-    })
-    .add({ targets: 'text-center',  background: 'rgb(220,20,60)' }, 0)
-
+  
 </script>
 
 <?php
