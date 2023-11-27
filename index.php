@@ -20,15 +20,16 @@ include "view-header.php";
         <img src="/Contents/waddle.jpeg" class="img-fluid" alt="Jaylen Waddle">
     </div>
 </div>
-<h1 class="ml6">
+<h1 class="ml6" style="text-align: center;">
   <span class="text-wrapper">
-    <span class="letters">Beautiful Questions</span>
+    <span class="letters">Click A Skill Position To View Stats</span>
   </span>
 </h1>
 <style>
     .ml6 {
   position: relative;
   font-weight: 900;
+
   font-size: 3.3em;
 }
 
