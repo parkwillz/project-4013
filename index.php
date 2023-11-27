@@ -29,7 +29,7 @@ include "view-header.php";
     .ml6 {
   position: relative;
   font-weight: 450;
-
+    margin-top:70px;
   font-size: 2.0em;
 }
 
