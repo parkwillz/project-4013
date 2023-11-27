@@ -1,4 +1,4 @@
-<h1>Runningbacks chart</h1>
+<h1>Runningbacks Chart</h1>
 <div>
   <canvas id="myChart"></canvas>
 </div>
