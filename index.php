@@ -83,7 +83,7 @@ include "view-header.php";
   left: 0;
   height: 3px;
   width: 100%;
-  background-color: #fff;
+  background-color: #000000;
   transform-origin: 0 0;
 }
 
