@@ -1,4 +1,4 @@
-<h1>Runningbacks Chart</h1>
+<h1>Runningback Chart</h1>
 <div>
   <canvas id="myChart"></canvas>
 </div>
@@ -8,25 +8,34 @@
   const ctx = document.getElementById('myChart');
 
   new Chart(ctx, {
-    type: 'doughnut',
+    type: 'bar',
     data: {
-    datasets: [{
+      labels: [
+<?php
+$runningback = selectRunningbacks();
+while ($runningback = $runningbacks->fetch_assoc()) {
+  echo "'" . $runningback['runningback_name'] . "', ";
+}
+?>        
+      ],
+      datasets: [{
+        label: '# of Votes',
         data: [
 <?php
 while ($runningback = $runningbacks->fetch_assoc()) {
   echo $runningback['runningback_tds'] . ", ";
 }
-?>
-        ]
-    }],
-    labels: [
-<?php
-$runningbacks = selectRunningbacks();
-while ($runningback = $runningbacks->fetch_assoc()) {
-  echo "'" . $runningback['runningback_name'] . "', ";
-}
-?>
-    ]
-},
+?>  
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
   });
 </script>
