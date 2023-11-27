@@ -12,7 +12,7 @@
     data: {
       labels: [
 <?php
-$runningback = selectRunningbacks();
+$runningbacks = selectRunningbacks();
 while ($runningback = $runningbacks->fetch_assoc()) {
   echo "'" . $runningback['runningback_name'] . "', ";
 }
