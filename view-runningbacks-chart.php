@@ -8,27 +8,34 @@
   const ctx = document.getElementById('myChart');
 
   new Chart(ctx, {
-    type: 'doughnut',
+    type: 'bar',
     data: {
-    datasets: [{
+      labels: [
+<?php
+$runningbacks = selectRunningbacks();
+while ($runningback = $runningbacks->fetch_assoc()) {
+  echo "'" . $runningback['runningback_name'] . "', ";
+}
+?>        
+      ],
+      datasets: [{
+        label: '# Of Touchdowns',
         data: [
 <?php
 while ($runningback = $runningbacks->fetch_assoc()) {
   echo $runningback['runningback_tds'] . ", ";
 }
-?>
-        ]
-    }],
-
-    // These labels appear in the legend and in the tooltips when hovering different arcs
-    labels: [
-<?php
-$runningback = selectRunningbacks();
-while ($runningback = $runningbacks->fetch_assoc()) {
-  echo "'" . $runningback['runningback_name'] . "', ";
-}
-?>
-    ]
-},
+?>  
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        y: {
+          beginAtZero: true
+        }
+      }
+    }
   });
 </script>
