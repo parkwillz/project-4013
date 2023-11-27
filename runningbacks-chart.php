@@ -1,11 +1,11 @@
 <?php
 require_once("util-db.php");
-require_once("model-runningbacks.php");
+require_once("model-runningbacks-chart-db.php");
 
 $pageTitle = "Runningbacks Chart";
 include "view-header.php";
 
 $runningbacks = selectRunningbacks();
-include "view-runningbacks.php";
+include "view-runningbacks-chart.php";
 include "view-footer.php";
 ?>
