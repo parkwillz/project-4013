@@ -3,7 +3,6 @@ $pageTitle = "Home";
 include "view-header.php";
 ?>
 <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <div class="text-center">
     <h1 class="display-4">NFL Database</h1>
     <p>Welcome! On this site you can view offensive skill position statistics for QBs, WRs and RBs</p>
