@@ -28,9 +28,9 @@ include "view-header.php";
 <style>
     .ml6 {
   position: relative;
-  font-weight: 900;
+  font-weight: 450;
 
-  font-size: 3.3em;
+  font-size: 2.0em;
 }
 
 .ml6 .text-wrapper {
