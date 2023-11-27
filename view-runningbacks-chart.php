@@ -19,7 +19,7 @@ while ($runningback = $runningbacks->fetch_assoc()) {
 ?>        
       ],
       datasets: [{
-        label: '# of Votes',
+        label: '# Of Touchdowns',
         data: [
 <?php
 while ($runningback = $runningbacks->fetch_assoc()) {
