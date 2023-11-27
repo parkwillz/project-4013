@@ -8,6 +8,27 @@ include "view-header.php";
     <h1 class="display-4">NFL Database</h1>
     <p>Welcome! On this site you can view offensive skill position statistics for QBs, WRs and RBs</p>
 </div>
+<style>
+    .ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+</style>
 
 <div class="row mt-5 d-flex justify-content-center">
     <div class="col-md-4 d-flex align-items-center">
@@ -20,7 +41,7 @@ include "view-header.php";
         <img src="/Contents/waddle.jpeg" class="img-fluid" alt="Jaylen Waddle">
     </div>
 </div>
-<h1 class="text-center" style="margin-top:70px">
+<h1 class="m16" style="margin-top:70px">
   <span class="text-wrapper">
     <span class="letters">Click on a skill position to view their stats</span>
   </span>
@@ -42,7 +63,7 @@ include "view-header.php";
 </script>
 
 <script>
-var textWrapper = document.querySelector('.text-center .letters');
+var textWrapper = document.querySelector('.m16 .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
 anime.timeline({loop: true})
