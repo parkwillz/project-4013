@@ -24,7 +24,7 @@ while ($runningback = $runningbacks->fetch_assoc()) {
     labels: [
 <?php
 $runningback = selectRunningbacks();
-while ($runningback = $instructors->fetch_assoc()) {
+while ($runningback = $runningbacks->fetch_assoc()) {
   echo "'" . $runningback['runningback_name'] . "', ";
 }
 ?>
