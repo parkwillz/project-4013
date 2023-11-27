@@ -23,7 +23,7 @@ while ($runningback = $runningbacks->fetch_assoc()) {
     // These labels appear in the legend and in the tooltips when hovering different arcs
     labels: [
 <?php
-$runningbacks = selectRunningbacks();
+$runningback = selectRunningbacks();
 while ($runningback = $instructors->fetch_assoc()) {
   echo "'" . $runningback['runningback_name'] . "', ";
 }
