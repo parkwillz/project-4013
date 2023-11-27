@@ -41,6 +41,7 @@ include "view-header.php";
 });
 </script>
 
+<script>
 var textWrapper = document.querySelector('.text-center .letters');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
@@ -58,6 +59,7 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+    </script>
 
 <?php
 include "view-footer.php";
