@@ -10,7 +10,7 @@ include "view-header.php";
     <p>Welcome! On this site you can view offensive skill position statistics for QBs, WRs and RBs</p>
 </div>
 -->
-<h1 class="ml1">
+<h1 class="ml1" style="text-align: center;">
   <span class="text-wrapper">
     <span class="line line1"></span>
     <span class="letters">NFL Database</span>
