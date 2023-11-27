@@ -1,4 +1,4 @@
-<h1>Runningback Chart</h1>
+<h1>Touchdown chart</h1>
 <div>
   <canvas id="myChart"></canvas>
 </div>
@@ -8,34 +8,27 @@
   const ctx = document.getElementById('myChart');
 
   new Chart(ctx, {
-    type: 'bar',
+    type: 'doughnut',
     data: {
-      labels: [
-<?php
-$runningbacks = selectRunningbacks();
-while ($runningback = $runningbacks->fetch_assoc()) {
-  echo "'" . $runningback['runningback_name'] . "', ";
-}
-?>        
-      ],
-      datasets: [{
-        label: '# Of Touchdowns',
+    datasets: [{
         data: [
 <?php
 while ($runningback = $runningbacks->fetch_assoc()) {
   echo $runningback['runningback_tds'] . ", ";
 }
-?>  
-        ],
-        borderWidth: 1
-      }]
-    },
-    options: {
-      scales: {
-        y: {
-          beginAtZero: true
-        }
-      }
-    }
+?>
+        ]
+    }],
+
+    // These labels appear in the legend and in the tooltips when hovering different arcs
+    labels: [
+<?php
+$runningbacks = selectRunningbacks();
+while ($runningback = $instructors->fetch_assoc()) {
+  echo "'" . $runningback['runningback_name'] . "', ";
+}
+?>
+    ]
+},
   });
 </script>
