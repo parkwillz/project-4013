@@ -1,4 +1,4 @@
-<h1>Touchdown chart</h1>
+<h1>RB Touchdown chart</h1>
 <div>
   <canvas id="myChart"></canvas>
 </div>
