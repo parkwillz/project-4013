@@ -41,7 +41,10 @@
           <a class="nav-link" href="widereceivers.php">Wide Receivers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="runningbacks.php">Running Backs</a>
+          <a class="nav-link" href="runningbacks.php">Runningbacks</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="runningbacks-chart.php">Runningbacks chart</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="qbs-with-wrs.php">Quarterbacks With Wide Receivers</a>
