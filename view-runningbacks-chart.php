@@ -23,7 +23,7 @@ while ($runningback = $runningbacks->fetch_assoc()) {
         data: [
 <?php
 while ($runningback = $runningbacks->fetch_assoc()) {
-  echo $runningback['runningback_tds'] . ", ";
+  echo "'" . $runningback['runningback_tds'] . ", ";
 }
 ?>
         ],
