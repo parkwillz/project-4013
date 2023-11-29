@@ -20,13 +20,7 @@ while ($runningback = $runningbacks->fetch_assoc()) {
       ],
       datasets: [{
         label: '# Of Touchdowns',
-        data: [
-<?php
-while ($runningback = $runningbacks->fetch_assoc()) {
-  echo $runningback['runningback_tds'] . ", ";
-}
-?>  
-        ],
+        data: [9,4,5,7,5,1,3,2,4,11],
         borderWidth: 1
       }]
     },
